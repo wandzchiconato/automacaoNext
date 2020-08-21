@@ -29,7 +29,10 @@ public class driverFactory {
             desiredCapabilities.setCapability("deviceName", "emulator-5554");
             desiredCapabilities.setCapability("platformVersion", "9.0");
             desiredCapabilities.setCapability("automationName", "uiautomator2");
-            desiredCapabilities.setCapability(MobileCapabilityType.APP, "");
+            desiredCapabilities.setCapability("appPackage", "br.com.bradesco.next");
+            desiredCapabilities.setCapability("appWaitActivity", "br.com.next.ui.activity.startactivity.StartActivity_");
+            desiredCapabilities.setCapability("appWaitDuration", "200000");
+            desiredCapabilities.setCapability("appActivity", "br.com.next.ui.activity.SplashActivity_");
 
 
             URL remoteUrl = null;

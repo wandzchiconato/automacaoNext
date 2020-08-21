@@ -2,6 +2,7 @@ package appiumCore;
 
 import io.appium.java_client.MobileElement;
 import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.touch.TouchActions;
 
 import java.util.List;
 
@@ -25,9 +26,14 @@ public class basePage {
         clicar(By.xpath("//*[@text='" + texto + "']"));
     }
 
+
     public void clicarPorIndex(int index) {
         List<MobileElement> elementosencontrados = getDriver().findElements(By.className("android.widget.TextView"));
         elementosencontrados.get(index).click();
+    }
+
+    public void clicarLongo(){
+
     }
 
     public void selecionarCombo(By by, String valor) {
