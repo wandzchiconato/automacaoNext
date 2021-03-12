@@ -13,3 +13,4 @@ Feature: Efetuar Login
     Examples:
       | Esteira   | CPF              | Senha    |
       | "PB-1018" | "578.988.438-51" | "147258" |
+      | "PB-1070" | "578.988.438-51" | "147258" |
