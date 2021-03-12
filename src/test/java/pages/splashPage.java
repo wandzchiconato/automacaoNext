@@ -33,11 +33,11 @@ public class splashPage extends basePage {
     }
 
     public void clicarJaTenhoConta() {
-        clicar(By.id("br.com.bradesco.next:id/nb_enter"));
+        clicar(By.id("br.com.bradesco.next:id/nb_have_account"));
     }
 
     public void clicarCriarConta() {
-        clicar(By.id("br.com.bradesco.next:id/nb_create_account"));
+        clicar(By.id("br.com.bradesco.next:id/nb_create_account_start"));
     }
 
     public void validarTitulo() {
